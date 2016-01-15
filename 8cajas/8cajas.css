@@ -1,0 +1,25 @@
+.cajita{
+	width: 70px;
+	height: 70px;
+	border: solid black 2px;
+	background-color: grey;
+	margin: 10px 0px;
+}
+
+.inline-block{
+	display: inline-block; 
+
+}
+
+.block{
+	display: block;
+}
+
+.contenedor{
+	width: 240px;
+	height: 95px;
+	border: solid black 2px;
+	background-color: grey;
+	padding-left: 10px;
+
+}
