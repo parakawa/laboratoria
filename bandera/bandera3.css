@@ -1,0 +1,17 @@
+.franja{
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin-left: 15px;
+	padding: 10px;
+
+
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.red{
+	background-color: red;
+}
