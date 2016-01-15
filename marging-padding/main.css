@@ -1,0 +1,10 @@
+.cuadro{
+	width: 230px;
+	height: 300px;
+	border: solid orange 2px;	
+	font-family: Arial;
+	font-size: 17.5px;
+	padding: 15px 15px;
+}
+
+
