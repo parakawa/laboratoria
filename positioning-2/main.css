@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.caja-amarillo{
+	background-color: yellow;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	
+}
+
+.caja-morada{
+	background-color: purple;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+.caja-roja{
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	position: static;
+}

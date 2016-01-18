@@ -1,0 +1,25 @@
+.contenedor{
+	width: 100%;
+	height: 300px;
+	border: solid black 3px;
+	
+}
+
+.franja{
+	width: 25%;
+	height: 100px;
+	display: block;
+
+}
+
+.amarillo{
+	background-color: yellow;
+}
+
+.azul{
+	background-color: blue;
+}
+
+.rojo{
+	background-color: red;
+}
