@@ -1,124 +1,103 @@
-/** {
-	box-sizing: border-box;
-}
 
-html, body {
-	height: 100%;
-}
-
-header {
-	height: 100%;
-}
-
-header{
-	width: 40%;
-	height: 15%;
-	background: url("../img/logo.png") no-repeat;
-	background-size: 100%;
+.container2{
+	width: 1000px;
+	padding: 25px;
 	position: relative;
-	left: 30%;
+	margin: auto;
+	font-family: Arial;
+
 }
 
-nav{
+.logo{
+	width: 600px;
+	height: 150px;
+	position: relative;
+	left: 180px;
+	margin-bottom: 20px;
+	}
+
+.menu {
+	width: 840px;
+	height: 70px;
+	margin:0 0 20px 50px; 
+	padding: 20px 0;
 	border-top: solid black 1px;
 	border-bottom: solid black 1px;
-	width: 40%;
-	position: relative;
-	left: 30%;
-	margin-bottom: 10px;
 }
-
-nav a  {
-	text-decoration: none;
+.menu li{
+	list-style-type: none;
+	font-size: 30px;
 	color: black;
-	margin: 10px;
-	font-size: 25px;
-	border-right: solid 2px grey;
+}	
 
+.menu a{
+	text-decoration: none;
+	float: left;
+	margin:0 20px;
 }
 
-nav a:last-child{
-	border-right: none;
 
+.centro{
+	margin-bottom: 20px;
 }
 
-img{
-	width: 40%;
-	height: 50%;
-	position: relative;
-	left: 30%
+.grupal{
+	width: 945px;
+	height:600px;
+	margin-bottom: 30px;
 }
 
-p{
+.desc{
+	font-size: 25PX;
+	font-weight: 500;
+	margin: 30px 0;
 	text-align: center;
-	width: 40%;
-	position: relative;
-	left: 30%;
-	font-family: Arial;
-	font-size: 19px;
-}
 
+}
 
 hr{
 	width: 5%;
 	position: relative;
-	left: 0%;
+	left: 450px;
 	border: solid 3px grey;
 }
 
 hr:last-child{
-	left: 3%;
-}
-
-h2{
-	width: 40%;
 	position: relative;
-	left: 30%
-}
-
-.galeria{
-	width: 40%;
-	position: relative;
-	left: 30%;
+	left: 30px;
 }
 
 .caja{
-	width: 30%;
-	height: 200px;y
-	position: relative;
-	float: left;
-	color: white;
-	margin: 10px;
-	}
+   color: white;
+   width: 200px;
+   height: 200px;
+   position: relative;
+   float: left;
+   margin: 0 0 20px 60px;
+}
+
+.caja img{
+	width: 200px;
+	height: 200px;
+
+}
 
 .caja p{
-	position: absolute;
-	right: 2px;
-	bottom: 2px;
-	text-align: right;
-	font-size: 12px;
-
+  position: relative;
+  bottom: 24px;
+  left: 32px;
 
 }
 
+.galeria{
+	margin-top: 30px;
+	width: 900px;
+	padding-left: 50px;  	
+}
 
-#foto-1{
-	background: url("../img/profile-6.png") no-repeat;
-}
-#foto-2{
-	background: url("../img/profile-2.png") no-repeat;
-}
-#foto-3{
-	background: url("../img/profile-3.png") no-repeat;
-}
-#foto-4{
-	background: url("../img/profile-4.png") no-repeat;
-}
-#foto-5{
-	background: url("../img/profile-5.png") no-repeat;
-}
-#foto-6{
-	background: url("../img/profile-6.png") no-repeat;
+hr:last-child{
+    position: relative;
+    left: 20px;
 }
 
 /*css coder-detaills*/
@@ -144,17 +123,17 @@ h2{
 	padding: 25px;
 	border: solid 2px grey;
 	position: relative;
+	margin: auto;
+	font-family: Arial;
 
 }
 
-header{
-	position: relative;
-	left: 380px;
-}
-header img{
+.profile{
 	width: 200px;
 	height: 200px;
 	border-radius: 100%;
+	position: relative;
+	left: 380px;
 
 }
 
@@ -213,8 +192,6 @@ section{
    margin-bottom: 25px;
    margin-left: 20px;
    margin-right: 25px;
-
-
 }
 
 
