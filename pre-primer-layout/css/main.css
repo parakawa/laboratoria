@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	font-family: Arial;
+	font-size: 15px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+.contenedor{
+	margin: 40px 0px 0px 80px; 
+	width: 720px;
+	border: solid 2px black;
+
+}
+
+.coders{
+	width: 200px;
+	height: 200px;
+	color: white;
+	text-align: right;
+	float: left;
+	margin: 15px;
+}
+
+span{
+	position: relative;
+	bottom: 0;
+	right: 0;
+	padding-right: 5px;
+}
+
+#foto-1{
+	background-image: url("../img/profile-1.png");
+}
+#foto-2{
+	background-image: url("../img/profile-2.png");
+}
+#foto-3{
+	background-image: url("../img/profile-3.png");
+}
+#foto-4{
+	background-image: url("../img/profile-4.png");
+}
+#foto-5{
+	background-image: url("../img/profile-5.png");
+}
+#foto-6{
+	background-image: url("../img/profile-6.png");
+}
+
+
+
